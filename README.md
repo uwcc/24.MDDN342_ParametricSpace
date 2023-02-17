@@ -1,5 +1,5 @@
-### 2021 MDDN342 Assignment 2: Parameterised Space
-Final design
+### 2023 MDDN342 Project 1: Parameterised Space
+EXAMPLE README 
 
 My design is inspired by fireworks and flowers. I want it to be full of changes, so that every frame can have a fresh feeling.
 
