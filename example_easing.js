@@ -6,13 +6,12 @@ function draw_one_frame(cur_frac) {
   if (cur_frac < 0.5) {
     going_right = true;
     amount_across = cur_frac * 2;
-  }
-  else {
+  } else {
     going_right = false;
-    amount_across = (cur_frac-0.5) * 2;
+    amount_across = (cur_frac - 0.5) * 2;
   }
 
-  let ellipse_radius = int(0.08*height);
+  let ellipse_radius = int(0.08 * height);
 
   const left_x = int(0.15 * width);
   const right_x = int(0.85 * width);
@@ -26,11 +25,10 @@ function draw_one_frame(cur_frac) {
   // const ease_amount_across = ease.bounceOut(amount_across, 10);
   // print(amount_across, ease_amount_across);
 
-  if(going_right) {
+  if (going_right) {
     cur_x1 = map(amount_across, 0, 1, left_x, right_x);
     cur_x2 = map(ease_amount_across, 0, 1, left_x, right_x);
-  }
-  else {
+  } else {
     cur_x1 = map(amount_across, 0, 1, right_x, left_x)
     cur_x2 = map(ease_amount_across, 0, 1, right_x, left_x)
   }
@@ -51,4 +49,3 @@ function draw_one_frame(cur_frac) {
   text("A", cur_x1, ellipse_y1);
   text("B", cur_x2, ellipse_y2);
 }
-

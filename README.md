@@ -1,7 +1,8 @@
-### 2023 MDDN342 Project 1: Parameterised Space
+### 2024 MDDN342 Project 1: Parameterised Space
 EXAMPLE README 
+Update this! 
 
-My design is inspired by fireworks and flowers. I want it to be full of changes, so that every frame can have a fresh feeling.
+This design is inspired by fireworks and flowers. I want it to be full of changes, so that every frame can have a fresh feeling.
 
 In terms of concrete performance, I draw different geometric figures, let them spread out, and overlay their number at the same time, through the time difference to make the whole dynamic background become enthusiastic.
 
